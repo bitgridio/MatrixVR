@@ -1,44 +1,16 @@
-<!DOCTYPE html>
+<!-- Written with Janus VR.  URL: file:///C:/Users/sirkitree/Desktop/VR/JanusVR_Win32/workspace/matrix-room/index.html -->
 <html>
 <head>
-<title>Lullabot loves you!</title>
-<script>
-	window.onload = function() {
-
-		document.write('<a href="janus:' + window.location.href.replace(/^((http)|(file)):/,'') + '">View in JanusVR</a>');
-	}
-</script>
-<style>
-
-</style>
+<title>MatrixVR Room</title>
 </head>
 <body>
-
 <FireBoxRoom>
-	<Assets>
-		// Objects
-		<AssetObject
-			id="room"
-			src="room.obj"
-			mtl="room.mtl" />
-	</Assets>
-	<Room
-		use_local_asset="room_plane"
-		col="0 0 0"
-		pos="0 -.1 -20"
-		fwd="0 0 1" >
-
-		<Object
-			id="room"
-			js_id="136"
-			pos="35.300 3.100 0.000"
-			xdir="-1.000 0.000 0.000"
-			ydir="0.000 0.000 1.000"
-			zdir="0.000 1.000 0.000"
-			scale="1 1 1" />
-
-	</Room>
+<Assets>
+<AssetObject id="room" src="room.obj" mtl="room.mtl" />
+</Assets>
+<Room use_local_asset="room_plane" pos="0.000 0.100 -20.000" xdir="1.000 0.000 0.000" ydir="0.000 1.000 0.000" zdir="0.000 0.000 1.000" col="1.000 1.000 1.000">
+<Object id="room" js_id="136" pos="1.500 4.000 -21.400" xdir="-0.000 -1.000 -0.000" ydir="-1.000 -0.000 0.000" zdir="-0.000 0.000 -1.000" scale="1.000 1.000 3.000" />
+</Room>
 </FireBoxRoom>
-
 </body>
 </html>

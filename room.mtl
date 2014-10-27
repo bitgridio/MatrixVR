@@ -2,8 +2,10 @@
 ## Alias OBJ Material File
 # Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
 
-newmtl FrontColor
+newmtl matrix
 Ka 0.000000 0.000000 0.000000
-Kd 1.000000 1.000000 1.000000
+Kd 0.101961 0.200000 0.129412
 Ks 0.330000 0.330000 0.330000
+d 0.620000
+map_Kd room/matrix.png
 
